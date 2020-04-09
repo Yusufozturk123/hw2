@@ -1,0 +1,41 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="liste.css">
+    <title>Document</title>
+</head>
+<body>
+        <script src="liste.js"></script>
+        <div class="alan">
+            <h2 style="text-align:center "> Alışveriş Listesi </h2>
+            <p style="text-align:center">NOT : Programı kullanırken lütfen önce yeni liste oluşturun sonrasında eklemek istediğiniz ürünleri listenize ekleyiniz. </p>
+            <div>
+                <button class="btn btn-success" id="yenile" onclick="ulolusturma()">Yeni Liste Kur</button>
+            </div>
+            <div class="flex-box-alan">
+                <div class="form">
+                    <form name="giris">
+                        <div class="label">
+                            <input type="text" id="listegir" name="giris" maxlength="20"><br>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <button class="btn btn-primary" onclick="ekle(),keyKontrol(key)">Listeye Ekle</button>
+                </div>
+                <div>
+                    <button class="btn btn-danger" onclick="sil()">Listeyi Sil</button>
+                </div>
+
+
+            </div>
+            <div class="flex-box-alan-2" id="flex-box-alan-2">
+
+            </div>
+        </div>
+
+    </body>
+</body>
+</html>

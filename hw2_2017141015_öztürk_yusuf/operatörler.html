@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+
+    p.ornek{
+        font-size: 45px;
+        background-color:#6dcbe8;
+    }
+
+    #alt1{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+    
+    h1.baslik1{
+        font-size: 50px;
+    }
+    p.metin1{
+        font-size: 30px;
+        
+    }
+
+    #baslık{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        margin-top: 0px;
+    }        
+    #sol{
+        width: 300px;   
+        height:1800px;
+       
+        margin-top: 100px;
+        margin-left:0px;
+        position: absolute;
+    }
+    #ust{
+        
+        height:185px;
+        background: linear-gradient(#1f263a,#2b3c6d);
+        
+    }   
+    #orta{
+       background-color: white;
+       width:1250px ;
+       height:1700px;
+       margin-top:50px;
+       margin-left:450px;
+       position: absolute;
+
+    }
+    #alt{
+        position:absolute;
+        height: 100px;
+        width:100%;
+        margin-left: 0px;
+        margin-top:1800px;
+        background: linear-gradient(#1f263a,#2b3c6d);
+    }
+    a{
+        color:white;
+        text-decoration: none;
+        font-size:20px;
+    }
+    ul{
+        
+        list-style-type: none;
+        list-style-position:inside;
+    }
+    li{
+        border-style: solid;
+        font-size: 15px;
+        border-left-width: 30px;    
+        border-bottom:0px;
+        border-left-color: rgb(89, 119, 124);
+        border-right-color: rgb(88, 100, 102);
+        margin-top: 0px;
+        width: 200px;   
+        height: 32px;
+        background: #1f263a;
+        padding: 35px;
+        text-align: justify-all;
+        color: white;
+    }
+    li:hover{
+
+        border-style: solid;
+        font-size: 15px;   
+        border-bottom:0px;
+        border-left-color: rgb(89, 119, 124);
+        border-right-color: rgb(88, 100, 102);
+        margin-top: 0px;
+        width: 200px;   
+        height: 32x;
+        background:#2b3c6d;
+        padding: 35px;
+        text-align: justify-all;
+        color: white;
+
+    }   
+
+        </style>    
+    </head>
+    <body>
+        <div id="ust"><h1 id="baslık"><br><a href="giris.html">İnternet Teknolojileri </a></h1></div>
+        <div id="orta">
+            <h1 class="baslik1">JavaScript Operatörler</h1>
+            <p class ="metin1">Tüm programlama dillerinde olduğu gibi JavaScript ile çeşitli işlemler için atama operatörleri, aritmetik operatörler, karşılaştırma operatörleri, mantıksal operatörler, koşul operatörleri, tür operatörleri ve bit operatörlerini kullanabiliriz.</p>
+            <h1 class="baslik1">Matematiksel operatörler</h1>
+            <p class ="metin1">var a = 5 + 6;   // toplama operatörü<br>
+                var b = 5 - 6;  // çıkarma operatörü<br>
+                var c = 5*6;    // çarpma operatörü<br>
+                var d = 5/6;    // bölme operatörü<br>
+                var e = 5%6;    // mod alma operatörü<br>
+                var f = ++a;    // önden 1 arttırma operatörü, a'nın değerini 1 arttırır, sonra bu değeri f'ye atar.<br>
+                var g = a++;    // sondan 1 arttırma operatörü a'yı g'ye atar, sonra a'nın değerini 1 arttırır.<br>
+                var h = --a;    // önden 1 eksiltme operatörü a'nın değerini 1 eksiltilir, sonra bu değeri h'ye atar.<br>
+                var i = a--;    // sondan 1 eksiltme operatörü a'yı i'ye atar, sonra a'nın değerini 1 eksiltir.</p>
+            <h1 class="baslik1">Atama operatörleri</h1>
+            <p class ="metin1">var a;<br>
+                a = 0;  // normal atama<br>
+                a += 6; // toplayarak atama. a = a+6'ya denk.<br>
+                a -= 6; // çıkararak atama. a = a-6'ya denk.<br>
+                a *= 6; // çarparak atama. a = a*6'ya denk.<br>
+                a /= 6; // bölerek atama. a = a/6'ya denk.<br>
+                a %= 6; // mod alarak atama. a = a%6'ya denk.</p>
+                <h1 class="baslik1">Karşılaştırma operatörleri</h1>
+            <p class ="metin1">var a = 5, b = "5";<br>
+                var c = a == b; // a ile b'nin değerleri eşit mi? burada c'ye true değeri atanır.<br>
+                c = a === b;    // a ile b'nin değerleri ve türleri aynı mı? c'nin değeri false olur.<br>
+                c = a != b; // a ile b eşit değil mi?<br>
+                c = a > b;  // a, b'den büyük mü?<br>
+                c = a < b;  // a, b'den küçük mü?<br>
+                c = a >= b; // a, b'den büyük veya b'ye eşit mi?<br>
+                c = a <= b; // a, b'den küçük veya b'ye eşit mi?</p>
+             </div>
+    <div id="sol">
+        <ul>
+            <li><a href="javaScript.html">JavaScript Giriş</a></li>
+            <li><a href="yazılımyapısı.html">JavaScript Yazılım yapısı</a></li>
+            <li><a href="degiskenler.html">Değişkenler</a></li>
+            <li><a href="operatörler.html">Operatörler</a></li>
+            <li><a href="aritmetik.html">Aritmetik</a></li>
+            <li><a href="veritipleri.html">Veri Tipleri</a></li>
+            <li><a href="fonksiyonyapisi.html">Fonksiyon Yapısı</a></li>
+            <li><a href="olaylar.html">Olaylar (Events)</a></li>
+            <li><a href="stringler.html">Stringler, Sayılar, Diziler</a></li>
+            <li><a href="ifkosul.html">If koşul yapıları</a></li>
+            <li><a href="döngüler.html">Döngüler</a></li>
+            <li><a href="tipdönüsümleri.html">Tip Dönüşümleri</a></li>
+            <li><a href="calismayapisi.html">Çalışma yapısı ve genel mimarisi</a></li>
+            <li><a href="objectmodel.html">Object Model</a></li>
+            <li><a href="jsdom.html">Document Object Model</a></li>
+            <li><a href="fonksiyonlar.html">Fonksiyonlar</a></li>
+        </ul>
+    </div>
+
+        <div id="alt"> <p id="alt1">
+           Tasarımcı: Yusuf Öztürk .CopyRight 2020 Tüm Hakları saklıdır.
+        </p>
+
+
+        </div>
+    </div>
+    </body>

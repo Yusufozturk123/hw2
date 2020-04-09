@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+
+    p.ornek{
+        font-size: 45px;
+        background-color:#6dcbe8;
+    }
+
+    #alt1{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+    
+    h1.baslik1{
+        font-size: 50px;
+    }
+    p.metin1{
+        font-size: 30px;
+        
+    }
+
+    #baslık{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        margin-top: 0px;
+    }        
+    #sol{
+        width: 300px;   
+        height:1800px;
+       
+        margin-top: 100px;
+        margin-left:0px;
+        position: absolute;
+    }
+    #ust{
+        
+        height:185px;
+        background: linear-gradient(#1f263a,#2b3c6d);
+        
+    }   
+    #orta{
+       background-color: white;
+       width:1250px ;
+       height:1700px;
+       margin-top:50px;
+       margin-left:450px;
+       position: absolute;
+
+    }
+    #alt{
+        position:absolute;
+        height: 100px;
+        width:100%;
+        margin-left: 0px;
+        margin-top:1800px;
+        background: linear-gradient(#1f263a,#2b3c6d);
+    }
+    a{
+        color:white;
+        text-decoration: none;
+        font-size:20px;
+    }
+    ul{
+        
+        list-style-type: none;
+        list-style-position:inside;
+    }
+    li{
+        border-style: solid;
+        font-size: 15px;
+        border-left-width: 30px;    
+        border-bottom:0px;
+        border-left-color: rgb(89, 119, 124);
+        border-right-color: rgb(88, 100, 102);
+        margin-top: 0px;
+        width: 200px;   
+        height: 32px;
+        background: #1f263a;
+        padding: 35px;
+        text-align: justify-all;
+        color: white;
+    }
+    li:hover{
+
+        border-style: solid;
+        font-size: 15px;   
+        border-bottom:0px;
+        border-left-color: rgb(89, 119, 124);
+        border-right-color: rgb(88, 100, 102);
+        margin-top: 0px;
+        width: 200px;   
+        height: 32x;
+        background:#2b3c6d;
+        padding: 35px;
+        text-align: justify-all;
+        color: white;
+
+    }   
+
+        </style>    
+    </head>
+    <body>
+        <div id="ust"><h1 id="baslık"><br><a href="giris.html">İnternet Teknolojileri </a></h1></div>
+        <div id="orta">
+            <h1 class="baslik1">ARİTMETİK İŞLEMLER</h1>
+            <p class ="metin1">Javascript (veya başka herhangi bir programlama dili) siz formülünü vermedikçe hiç bir hesabı yapamaz; ama dünyanın en çapraşık, en karmaşık formülünü de verseniz, sonucu (bilgisayarınızın hızı ile orantılı olarak) hesaplar.
+                Tabiî, Javascript, dört temel işlemi yapabilir. toplama işlemini artı işaretiyle (+), çıkartma işlemini eksi işaretiyle (-), çarpma işlemini yıldız (asterisk, *) işaretiyle, ve bölme işlemini düz bölü işaretiyle (/) yaptırırsınız.
+                Javascript, artı işaretini gördüğü zaman, işaretin hem sağına, hem de soluna aynı anda bakar ve bulduğu iki değeri, sayı ise toplar, alfanümerik ise sağdakinin soldakinin arkasına ekler:</p>
+            <p class ="ornek">x = 3 + 4</p>
+            <p class ="metin1">Javascript, bu işlemin sonucu olarak x adlı değişkene 7 değerini atar. Fakat kimi zaman, bir değişkenin mevcut değerini (sıfır bile olsa) belirli bir miktarda arttırmak isteyebilirsiniz. Yani Javascript'e "x'in mevcut değerine 3 ekle!" demek isteyebilirsiniz. Bunu, "x = x + 3" diye ifade ederiz. Eğer arttırılacak miktar 1 ise, bunu daha kısa yazmak da mümkündür: ++x
+                Javascript çıkartma işleminde de aynı kuralları uygular:</p>
+            <p class ="ornek">x = 3 - 4<br>
+                x = x - 3<br>
+                --x</p>
+            <p class ="metin1">Değişkenleri 1 arttırma veya 1 eksiltmeye yarayan kısaltmanın üzerinde biraz duralım. İlerde bol bol örneklerini göreceğimiz gibi, Javascript programlarınızda bazı değişkenleri sayaç olarak kullanmak isteyebilirsiniz. Bir işin sonuna geldiğimizi bilebilmek için, diyelim ki 12 kişilik bir adres listesini Javascript'e okutup,sayfaya bir tablo çizdiriyorsak, Javascript'e listenin sona geldiğini belirtebilmek için sayaç rakamı 12 veya 0 oldu ise durmasını emretmek zorundasınız. Bu durumda sayaç olarak kullandığınız değişkenin değerini, her adres okunduğunda 1 arttırmak veya 1 eksiltmek, en kestirme yoldur. Diyelim ki, x'in orijinal değeri 12. Javascript x-- veya --x işlemini gördüğü anda, 12'den 1 çıkartacak ve x'in yeni değeri olarak 11'i atayacaktır. Aynı şekilde ilk değer sıfır ise, x++ veya ++x işlemini gördüğü anda x'in yeni değerini 1 yapacaktır.
+
+                Toplama ve çıkartma işlemlerinde yapabileceğiniz başka bir kısaltma ise şöyle yazılır:</p>
+            <p class ="ornek">x = x + y işlemini kısaltmak için x += y<br>
+                x = x - y işlemini kısaltmak için x -= y</p>
+             </div>
+    <div id="sol">
+        <ul>
+            <li><a href="javaScript.html">JavaScript Giriş</a></li>
+            <li><a href="yazılımyapısı.html">JavaScript Yazılım yapısı</a></li>
+            <li><a href="degiskenler.html">Değişkenler</a></li>
+            <li><a href="operatörler.html">Operatörler</a></li>
+            <li><a href="aritmetik.html">Aritmetik</a></li>
+            <li><a href="veritipleri.html">Veri Tipleri</a></li>
+            <li><a href="fonksiyonyapisi.html">Fonksiyon Yapısı</a></li>
+            <li><a href="olaylar.html">Olaylar (Events)</a></li>
+            <li><a href="stringler.html">Stringler, Sayılar, Diziler</a></li>
+            <li><a href="ifkosul.html">If koşul yapıları</a></li>
+            <li><a href="döngüler.html">Döngüler</a></li>
+            <li><a href="tipdönüsümleri.html">Tip Dönüşümleri</a></li>
+            <li><a href="calismayapisi.html">Çalışma yapısı ve genel mimarisi</a></li>
+            <li><a href="objectmodel.html">Object Model</a></li>
+            <li><a href="jsdom.html">Document Object Model</a></li>
+            <li><a href="fonksiyonlar.html">Fonksiyonlar</a></li>
+        </ul>
+    </div>
+
+        <div id="alt"> <p id="alt1">
+           Tasarımcı: Yusuf Öztürk .CopyRight 2020 Tüm Hakları saklıdır.
+        </p>
+
+
+        </div>
+    </div>
+    </body>
